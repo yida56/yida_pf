@@ -338,7 +338,7 @@
 		 /*----------------页码结束-------------------*/
 		 /*-----------带边框的宽1198大盒子  开始------*/
 		 .contain-b{
-		 	border:1px solid #d7d7d7;
+		 	border:1px solid #dfdcdc;
 		 	width: 1198px;
 		 	margin:20px auto 0;
 		 	overflow: hidden;
@@ -364,3 +364,29 @@
 			margin-left: 10px;
 		}
 		/*----------不带边框两列布局  结束------*/
+		/*----------head和content的盒子布局  开始------*/
+		.head-con-box{
+			border:1px solid #dfdcdc;
+			overflow: hidden;
+		}
+		.head-box{
+			height: 45px;
+			line-height: 45px;
+			background-color: #f0f0f0;
+			border-bottom: 1px solid #dfdcdc;
+			font-size: 14px;
+			color: #1f1f1f;
+			text-indent: 1em;
+			font-weight: bold;
+		}
+		.hb-more{
+			color: #767676;
+			float: right;
+			font-size: 12px;
+			margin-right: 20px;
+			font-weight: normal;
+		}
+		.hb-more:hover{
+			text-decoration: underline;
+		}
+		/*----------head和content的盒子布局 结束------*/
