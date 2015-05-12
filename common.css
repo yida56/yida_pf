@@ -406,6 +406,9 @@
 
 		/*----------当前位置导航 开始------*/
 		.w12-nav-pos{
+			width: 1200px;
+		 	margin:0px auto;
+		 	overflow: hidden;
 			height: 40px;
 			line-height: 40px;
 
