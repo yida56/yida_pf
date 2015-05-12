@@ -416,6 +416,7 @@
 		.w12-nav-pos i{
 			display: inline-block;	
 			background: url(../images/nav-pos-jiantou.png) no-repeat center;
+			width: 15px;
 		}
 		.w12-nav-pos a,.w12-nav-pos b{
 			color:#000;
