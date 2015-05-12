@@ -336,3 +336,31 @@
 		 	line-height: 23px;
 		 }
 		 /*----------------页码结束-------------------*/
+		 /*-----------带边框的宽1198大盒子  开始------*/
+		 .contain-b{
+		 	border:1px solid #d7d7d7;
+		 	width: 1198px;
+		 	margin:20px auto 0;
+		 	overflow: hidden;
+		 }
+		  /*-----------带边框的宽1200大盒子  结束------*/
+		  /*----------不带边框的宽1200大盒子  开始------*/
+		  .contain{
+		 	width: 1200px;
+		 	margin:20px auto 0;
+		 	overflow: hidden;
+		 }
+		/*----------不带边框的宽1200大盒子  结束------*/
+		/*----------不带边框两列布局  开始------*/
+		.con-left{
+			width: 920px;
+			float:left;
+			overflow: hidden;
+		}
+		.con-right{
+			width: 270px;
+			float:left;
+			overflow: hidden;
+			margin-left: 10px;
+		}
+		/*----------不带边框两列布局  结束------*/
