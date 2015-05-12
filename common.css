@@ -390,3 +390,20 @@
 			text-decoration: underline;
 		}
 		/*----------head和content的盒子布局 结束------*/
+
+		/*----------当前位置导航 开始------*/
+		.w12-nav-pos{
+			height: 40px;
+			line-height: 40px;
+
+		}
+		.w12-nav-pos i{
+			display: inline-block;	
+			background: url(../images/nav-pos-jiantou.png) no-repeat center;
+		}
+		.w12-nav-pos a,.w12-nav-pos b{
+			color:#000;
+			display: inline-block;
+			margin: 0 5px;
+		}
+		/*----------当前位置导航 结束------*/
