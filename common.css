@@ -351,14 +351,27 @@
 		 	overflow: hidden;
 		 }
 		/*----------不带边框的宽1200大盒子  结束------*/
-		/*----------不带边框两列布局  开始------*/
-		.con-left{
+		/*----------不带边框两列布局(左大右小)  开始------*/
+		.con-left-b{
 			width: 920px;
 			float:left;
 			overflow: hidden;
 		}
-		.con-right{
+		.con-right-s{
 			width: 270px;
+			float:left;
+			overflow: hidden;
+			margin-left: 10px;
+		}
+		/*----------不带边框两列布局  结束------*/
+		/*----------不带边框两列布局(左小右大)  开始------*/
+		.con-left-s{
+			width: 270px;
+			float:left;
+			overflow: hidden;
+		}
+		.con-right-b{
+			width: 920px;
 			float:left;
 			overflow: hidden;
 			margin-left: 10px;
@@ -407,3 +420,8 @@
 			margin: 0 5px;
 		}
 		/*----------当前位置导航 结束------*/
+		/*----------左图片右文字布局 开始------*/
+
+
+		/*----------左图片右文字布局 结束------*/
+		
