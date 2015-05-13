@@ -1,0 +1,103 @@
+		/*
+		 *  name : 头尾部样式;
+		 *	level : 局部;
+		 *	dependent : 依赖于reset.css;
+		 *	author : 胡天斐 日期2015/4/29 18:30;
+		 *	last modify : 胡天斐 日期2015/5/9 12:00;
+		 */
+
+		 /*-----------带边框的宽1198大盒子  开始------*/
+		 .contain-b{
+		 	border:1px solid #dfdcdc;
+		 	width: 1198px;
+		 	margin:20px auto 0;
+		 	overflow: hidden;
+		 }
+		  /*-----------带边框的宽1200大盒子  结束------*/
+		  /*----------不带边框的宽1200大盒子  开始------*/
+		  .contain{
+		 	width: 1200px;
+		 	margin:20px auto 0;
+		 	overflow: hidden;
+		 }
+		/*----------不带边框的宽1200大盒子  结束------*/
+		/*----------不带边框两列布局(左大右小)  开始------*/
+		.con-left-b{
+			width: 920px;
+			float:left;
+			overflow: hidden;
+		}
+		.con-right-s{
+			width: 270px;
+			float:left;
+			overflow: hidden;
+			margin-left: 10px;
+		}
+		/*----------不带边框两列布局  结束------*/
+		/*----------不带边框两列布局(左小右大)  开始------*/
+		.con-left-s{
+			width: 270px;
+			float:left;
+			overflow: hidden;
+		}
+		.con-right-b{
+			width: 920px;
+			float:left;
+			overflow: hidden;
+			margin-left: 10px;
+		}
+		/*----------不带边框两列布局  结束------*/
+		/*----------head和content的盒子布局  开始------*/
+		.head-con-box{
+			border:1px solid #dfdcdc;
+			overflow: hidden;
+		}
+		.head-box{
+			height: 45px;
+			line-height: 45px;
+			background-color: #f0f0f0;
+			border-bottom: 1px solid #dfdcdc;
+			font-size: 14px;
+			color: #1f1f1f;
+			text-indent: 1em;
+			font-weight: bold;
+		}
+		.hb-more{
+			color: #767676;
+			float: right;
+			font-size: 12px;
+			margin-right: 20px;
+			font-weight: normal;
+		}
+		.hb-more:hover{
+			text-decoration: underline;
+		}
+		/*----------head和content的盒子布局 结束------*/
+		/*----------左图片右文字布局 开始------*/
+		.image-t-dt{
+			float: left;
+		}
+		/*----------左图片右文字布局 结束------*/
+		/*----------最大宽度 开始------*/
+		.max-width{
+			width: 100%;
+		}
+		/*----------最大宽度 结束------*/
+		/*----------最大宽高 开始------*/
+		.max-wh{
+			width: 100%;
+			height: 100%;
+		}
+		/*----------最大宽高 结束------*/
+		/*----------橙色按钮 开始------*/
+		.button-cheng{
+			display: block;
+			height: 100px;
+			width: 35px;
+			line-height: 35px;
+			text-align: center;
+			background-color: #eb9103;
+			font-size:14px;
+			font-weight: bold;
+		}
+		
