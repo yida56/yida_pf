@@ -7,6 +7,15 @@
 		 */
 
 		 /*-----------带边框的宽1198大盒子  开始------*/
+		 .fl{
+		 	float: left;
+		 }
+		 .fr{
+		 	float: right;
+		 }
+		 .margin-t20{
+		 	margin-top: 20px;
+		 }
 		 .contain-b{
 		 	border:1px solid #dfdcdc;
 		 	width: 1198px;
@@ -90,14 +99,55 @@
 		}
 		/*----------最大宽高 结束------*/
 		/*-------水平dt-dd排列形式开始-------*/
+		.list-level-item{
+			height:45px;
+			line-height: 45px;
+			border-bottom: 1px dashed #cbc9c9;
+		}
 		.list-level-item>dt{
 			float: left;
+			color:#979393;
 		}
 		.list-level-item>dd{
 			overflow: hidden;
 		}
+		.list-level-item dd a{
+			display: inline-block;
+			height: 20px;
+			line-height: 20px;
+			padding: 5px 10px;
+		}
+		.list-level-item .select{
+			background-color: #eb9103;
+			color: #fff;
+		}
+		.list-level-item dd a:hover{
+			background: #eb9103;
+			color: #fff;
+		}
 		/*-------水平dt-dd排列形式结束-------*/
+		/*--------li新闻标题的形式 开始------*/
+		.list-news-item{
+			list-style: square inside;
+			height: 37px;
+			line-height: 37px;
+			text-overflow: ellipsis;
+			border-bottom: 1px dashed #cbc9c9;
+		}
+		.list-news-item span,.list-news-item i{
+			display: inline-block;
+		}
+		.list-news-item span{
+			float: right;
+			color: #a4a1a1;
+		}
+		.list-news-item i{
+			width: 15px;
+			margin-left: 5px;
+			background:url(../images/ico/tip.png) center no-repeat;
+		}
 
+		/*-------li新闻标题的形式 结束-------*/
 		/*----------橙色按钮 开始------*/
 		.button-cheng{
 			display: block;
