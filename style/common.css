@@ -10,14 +10,14 @@
 		 .contain-b{
 		 	border:1px solid #dfdcdc;
 		 	width: 1198px;
-		 	margin:20px auto 0;
+		 	margin:0 auto;
 		 	overflow: hidden;
 		 }
 		  /*-----------带边框的宽1200大盒子  结束------*/
 		  /*----------不带边框的宽1200大盒子  开始------*/
 		  .contain{
 		 	width: 1200px;
-		 	margin:20px auto 0;
+		 	margin:0 auto;
 		 	overflow: hidden;
 		 }
 		/*----------不带边框的宽1200大盒子  结束------*/
@@ -78,17 +78,26 @@
 			float: left;
 		}
 		/*----------左图片右文字布局 结束------*/
-		/*----------最大宽度 开始------*/
+		/*----------最大宽度 开始 无关联hmtl------*/
 		.max-width{
 			width: 100%;
 		}
 		/*----------最大宽度 结束------*/
-		/*----------最大宽高 开始------*/
+		/*----------最大宽高 开始 无关联hmtl------*/
 		.max-wh{
 			width: 100%;
 			height: 100%;
 		}
 		/*----------最大宽高 结束------*/
+		/*-------水平dt-dd排列形式开始-------*/
+		.list-level-item>dt{
+			float: left;
+		}
+		.list-level-item>dd{
+			overflow: hidden;
+		}
+		/*-------水平dt-dd排列形式结束-------*/
+
 		/*----------橙色按钮 开始------*/
 		.button-cheng{
 			display: block;
