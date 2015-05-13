@@ -82,6 +82,33 @@
 			text-decoration: underline;
 		}
 		/*----------head和content的盒子布局 结束------*/
+		/*----------head(带图标)和content的盒子布局 结束------*/
+		.head-con-box-ico{
+			overflow: hidden;
+		}
+		.head-box-ico{
+			height: 45px;
+			line-height: 45px;
+			background-color: #a6dcfb;
+			font-size: 14px;
+			color: #1f1f1f;
+			text-indent: 1em;
+			font-weight: bold;
+		}
+		.head-box-ico>i{
+			float: left;
+			width: 20px;
+			background: url(../images/ico/listR.png) no-repeat center;
+		}
+		.hb-more i{
+			display: inline-block;
+			width: 20px;
+			background: url(../images/ico/listX.png) no-repeat center;
+		}	
+		.head-con-box-ico .con-box{
+			border:1px solid #dfdcdc;
+			border-top: none;
+		}
 		/*----------左图片右文字布局 开始------*/
 		.image-l-dt{
 			float: left;
@@ -100,19 +127,21 @@
 		/*----------最大宽高 结束------*/
 		/*-------水平dt-dd排列形式开始-------*/
 		.list-level-item{
-			height:45px;
+			overflow: hidden;
 			line-height: 45px;
 			border-bottom: 1px dashed #cbc9c9;
 		}
-		.list-level-item>dt{
+		.list-level-item dt{
 			float: left;
 			color:#979393;
 		}
-		.list-level-item>dd{
+		.list-level-item dd{
+			word-spacing: 0;
 			overflow: hidden;
 		}
 		.list-level-item dd a{
 			display: inline-block;
+			font-size: 12px;
 			height: 20px;
 			line-height: 20px;
 			padding: 5px 10px;
@@ -146,8 +175,66 @@
 			margin-left: 5px;
 			background:url(../images/ico/tip.png) center no-repeat;
 		}
-
 		/*-------li新闻标题的形式 结束-------*/
+		/*----------按日期热度排序 开始------*/
+		.paixu-time{
+			height: 27px;
+			line-height: 27px;
+			display: inline-block;
+			overflow: hidden;
+		}
+		.paixu-time dt{
+			float: left;
+		}
+		.paixu-time dd{
+			display: inline-block;
+			border:1px solid #d7d7d7;
+			overflow: hidden;
+		}
+		.paixu-time dd a{
+			border-left: 1px solid #d7d7d7;
+			float: left;
+			height: 25px;
+			padding: 0px 15px;
+			line-height: 25px;
+		}
+		.paixu-time dd .first{
+			border-left:none;
+		}
+		.paixu-time dd .select,.paixu-time dd a:hover{
+			background-color: #eb9103;
+			color: #fff;
+		}
+		/*-------按日期热度排序 结束-------*/
+
+		/*-------按国家排序 开始-------*/
+		.paixu-country{
+			background-color: #f0f0f0;
+			overflow: hidden;
+			line-height: 40px;
+
+		}
+		.paixu-country dt{
+			float: left;
+		}
+		.paixu-country dd{
+			overflow: hidden;
+		}
+		.paixu-country dd span{
+			float: left;
+		}
+		.paixu-country dd a{
+			display: inline-block;
+			height: 20px;
+			line-height: 20px;
+			padding: 0px 10px;
+			margin:0 5px;
+		}
+		.paixu-country dd .select a,.paixu-country dd a:hover{
+			background-color: #eb9103;
+			color: #fff;
+		}
+		/*-------按国家排序 结束-------*/
 		/*----------橙色按钮 开始------*/
 		.button-cheng{
 			display: block;
