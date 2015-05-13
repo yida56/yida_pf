@@ -92,12 +92,17 @@
 		/*----------橙色按钮 开始------*/
 		.button-cheng{
 			display: block;
-			height: 100px;
-			width: 35px;
+			height: 35px;
+			width: 100px;
 			line-height: 35px;
 			text-align: center;
 			background-color: #eb9103;
 			font-size:14px;
 			font-weight: bold;
+			color: #fff;
 		}
+		.button-cheng:hover{
+			background-color:#0f80d0;
+		}
+		/*----------橙色按钮 结束------*/
 		
