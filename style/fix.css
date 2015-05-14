@@ -220,7 +220,7 @@
 		 	background-color: #454545;
 		 }
 		 .f-warp{
-		 	width: 720px;
+		 	width: 780px;
 		 	height: 206px;
 		 	margin: 0 auto;
 		 	padding: 10px 0;
@@ -229,7 +229,7 @@
 		 .f-warp dl{
 		 	float: left;
 		 	padding-left: 40px;
-		 	margin-right: 200px;
+		 	margin-right: 180px;
 		 }
 		 .f-warp dt{
 		 	font-size: 14px;
@@ -406,4 +406,6 @@
 			background: url(../images/ico/cha-a.png) center no-repeat;
 		}
 		/*----------  已选择   结束   ---------*/
-		
+		/*----------  分页  开始   ---------*/
+
+		/*----------  分页  结束   ---------*/
